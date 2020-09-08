@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "My Application"
+include ':java'
+project(':java').projectDir = new File(opencvsdk + '/sdk')
